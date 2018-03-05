@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="css/app.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+      <title>Registration Page</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>REGISTER AS A NEW USER</h3>
+            <form id="new-user">
+              <div class="form-group">
+                <label for="new-first-name">First name</label>
+                <input type="text" required class="form-control" id="new-first-name">
+              </div>
+              <div class="form-group">
+                <label for="new-last-name">Last name</label>
+                <input type="text" required class="form-control" id="new-last-name">
+              </div>
+              <div class="form-group">
+                <label for="id-number">ID Number</label>
+                <input type="number" required class="form-control id-number">
+              </div>
+                <div class="form-group">
+                  <label for="phone-number">Phone Number</label>
+                  <input type="number" required class="form-control phone-number">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control new-email">
+                </div>
+                <div class="form-group">
+                  <label for="new-address">Address</label>
+                  <input type="text" class="form-control new-address">
+                </div>
+                <div class="form-group">
+                  <label for="post-code">Post Code</label>
+                  <input type="number" class="form-control post-code">
+                </div>
+
+              <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+      </div>
+      <script src="js/jquery-3.3.1.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+  </html>
