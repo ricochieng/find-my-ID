@@ -1,20 +1,17 @@
-#show-contact {
-    display: none;
-  }
 
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-
-  .contact:hover {
-    text-decoration: underline;
-  }
-.form-group{
-  margin-left: 500px;
-
-}
-.row{
+.container{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 40%;
   border: 2px solid black;
+  padding-bottom: 10px;
+  }
 
-}
+  h3 {
+    text-align: center;
+  }
+  .btn{
+    align-items: center;
+
+  }
