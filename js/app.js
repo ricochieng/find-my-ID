@@ -2,11 +2,11 @@
 function User (first, last, id, phone, email, address, code) {
   this.firstName=first;
   this.lastName=last;
-  this.idnumber=id;
-  this.phonenumber=phone;
+  this.idNumber=id;
+  this.phoneNumber=phone;
   this.email=email;
   this.address=address;
-  this.code=code;
+  this.postCode=code;
 }
 //User interface Logic
 $(document).ready(function() {
@@ -22,3 +22,21 @@ $(document).ready(function() {
     var inputtedPostCode = $("input#new-post-code").val();
 
     var newUser = new User(inputtedFirstName, inputtedLastName, inputtedIDNumber, inputtedPhoneNumber, inputtedEmail, inputtedAddress, inputtedPostCode);
+    $("p#show-user").append("<p><span class='new-first-name'>" + newUser.firstName + "</span></p>");
+    $("p#show-user").append("<p><span class='new-last-name'>" + newUser.lastName + "</span></p>");
+    $("p#show-user").append("<p><span class='new-id-number'>" + newUser.idNumber + "</span></p>");
+    $("p#show-user").append("<p><span class='new-phone-number'>" + newUser.phoneNumber + "</span></p>");
+    $("p#show-user").append("<p><span class='new-email'>" + newUser.email + "</span></p>");
+    $("p#show-user").append("<p><span class='new-address'>" + newUser.address + "</span></p>");
+    $("p#show-user").append("<p><span class='new-post-code'>" + newUser.postCode + "</span></p>");
+
+    $("input#new-first-name").val("");
+    $("input#new-last-name").val("");
+    $("input#new-id-number").val("");
+    $("input#new-phone-number").val("");
+    $("input#new-email").val("");
+    $("input#new-address").val("");
+    $("input#new-post-code").val("");
+
+  });
+});
