@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
-    var inputtedIDNumber = $("input#new-first-name").val();
+    var inputtedIDNumber = $("input#new-id-number").val();
     var inputtedPhoneNumber= $("input#new-phone-number").val();
     var inputtedEmail = $("input#new-email").val();
     var inputtedAddress = $("input#new-address").val();
