@@ -51,17 +51,16 @@ $(document).ready(function() {
       $("#new-address").val("");
       */
     $("#submit").last().click(function() {
-      $("#show-user").show();
-      $(".new-first-name").text(newUser.firstName);
-      $(".new-last-name").text(newUser.lastName);
-      $(".new-id-number").text(newUser.idNumber);
-      $(".new-phone-number").text(newUser.phoneNumber);
-      $(".new-email").text(newUser.email);
-      $(".new-address").text(newUser.address);
-      $(".new-post-code").text(newUser.postCode);
+       $(".user-details").show();
+        $(".new-first-name").text(newUser.firstName);
+        $(".new-last-name").text(newUser.lastName);
+        $(".new-id-number").text(newUser.idNumber);
+        $(".new-phone-number").text(newUser.phoneNumber);
+        $(".new-email").text(newUser.email);
+        $(".new-address").text(newUser.address);
+        $(".new-post-code").text(newUser.postCode);
 
     });
 
-console.log(inputtedPhoneNumber);
   });
 });
