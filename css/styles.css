@@ -23,27 +23,10 @@
   padding-bottom: 10px;
   display: none;
 }
-.form {
+#user-form {
   width:40%;
   border: 1px solid black;
   padding: 10px;
   margin: auto;
+  height:70%
 }
-
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-
-  .contact:hover {
-    text-decoration: underline;
-  }
-
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-
-  .contact:hover {
-    text-decoration: underline;
-  }
