@@ -1,30 +1,3 @@
-// var number = document.getElementById("number");
-//
-// number.addEventListener("number", function(event) {
-//   if (number.validity.typeMismatch) {
-//     number.setCustomValidity("I need a number, fam!");
-//   } else {
-//     number.setCustomValidity(" ");
-//   }
-// });
-//
-//
-// function maxLength() {
-//   if (maxLength != 8) {
-//     number.setCustomValidity("Please input correct ID number")
-//   } else {
-//     number.setCustomValidity("")
-//   }
-
-// document.querySelector("#number").addEventListener("keypress", function(evt) {
-//   if (evt.which < 8 || evt.which > 8) {
-//
-//     evt.display("Please input correct ID number");
-//
-//   }
-//
-// });
-
 var form = document.querySelector("#form");
 var input = document.querySelector("#input");
 var error = document.querySelector("#error");
