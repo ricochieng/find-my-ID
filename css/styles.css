@@ -6,6 +6,7 @@
   margin-top: 50px;
   width: 100%;
   padding-bottom: 10px;
+  font-family: 'Sofia';font-size: 22px;
   }
 
   h3 {
@@ -29,7 +30,8 @@
   border: 1px solid black;
   padding: 10px;
   margin: auto;
-  height:40%
+  height:40%;
+  background-color: white;
 }
 #submit {
   margin: 5px;
@@ -50,4 +52,69 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+}
+body {
+  background-image: url(../images/background1.gif);
+  background-repeat: round;
+  background-size: ;
+}
+
+.about-container{
+  width: 1300px;
+  height: 570px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-container h2{
+  text-align: center;
+}
+
+#Eric {
+  height:500px;
+  width:200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+
+  }
+
+#Eric image {
+width: 150px;
+height: 150px;
+margin-left: 50%;
+vertical-align: middle;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#Kasambuli {
+    height:500px;
+    width:200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
+    }
+
+#Joshua {
+  height:500px;
+  width:200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+
+}
+#Angie {
+  height:500px;
+  width:200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
 }
