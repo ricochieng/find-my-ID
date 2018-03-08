@@ -1,8 +1,8 @@
 header {
   text-align: center;
-  font-size: 250%;
+  font-size: 300%;
   text-transform: capitalize;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-color: black;
   color: white;
 }
@@ -14,17 +14,13 @@ header h2 {
 
 header h1 {
   font-size: 200%;
-  padding-top: 50px;
+  padding-top: 200px;
 }
 
 a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 200%;
   color: white;
-}
-
-.search-container {
-  float: right;
 }
 
 input[type=text] {
@@ -43,7 +39,7 @@ button {
 
 footer {
   text-align: center;
-  font-size: 60%;
+  font-size: 80%;
   background-color: black;
   color: white;
 }
@@ -55,20 +51,12 @@ footer a {
 
 .container {
   padding-bottom: 200px;
+  font-family: 'Crimson Text', serif;
 }
 
-aside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 30vw;
-  position: absolute;
-  background-color: red;
-  z-index: 100;
-  left: -100%;
-  top: 0;
-  border-radius: 100%;
+.item a {
+  color: white;
+  font-style: oblique;
 }
 
 #the-menu {
@@ -84,22 +72,10 @@ aside {
   font-size: 100%;
 }
 
+div {}
+
 .menu {
   text-align: center;
-}
-
-#open-menu, #close-menu {
-  position: absolute;
-  font-size: 300%;
-  color: black;
-}
-
-#open-menu {
-  left: 5%;
-}
-
-#close-menu {
-  left: 80%;
 }
 
 #social-media {
@@ -107,7 +83,17 @@ aside {
 }
 
 body {
-  background-image: url("../images/background1.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+
+@font-face {
+  src: url(../../fonts/CrimsonText-Regular.ttf);
+}
+
+.container h3 {
+  text-transform: uppercase;
+  font-size: 400%;
 }
