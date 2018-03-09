@@ -1,0 +1,322 @@
+.container header {
+  text-align: center;
+  font-size: 300%;
+  text-transform: capitalize;
+  padding: 100px;
+  background-color: black;
+  color: white;
+
+   width: 1000px;
+   font-family: 'Crimson Text', serif;
+}
+
+#index-h2 {
+  font-size: 60%;
+  font-weight: lighter;
+}
+
+#index-h1 {
+  font-size: 100%;
+}
+#index-h3 {
+  font-size: 150%;
+}
+a {
+  text-transform: capitalize;
+  font-size: 200%;
+  color: white;
+}
+
+input[type=text] {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  background-color: red;
+  border: 1px solid red;
+}
+
+#index {
+  text-align: center;
+  font-size: 50%;
+  background-color: black;
+  color: white;
+}
+
+#index a {
+  font-size: 80%;
+  color: white;
+}
+
+.item .container {
+margin-left: -10%;
+ width: 1000px;
+  font-family: 'Crimson Text', serif;
+}
+
+.item a {
+  color: white;
+  font-style: oblique;
+}
+
+#the-menu {
+  list-style: none;
+}
+
+#the-menu a {
+  color: white;
+}
+
+#the-menu li {
+  text-transform: uppercase;
+  font-size: 100%;
+}
+
+.menu {
+  text-align: center;
+}
+
+#social-media {
+  font-size: 300%;
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+
+@font-face {
+  src: url(../../fonts/CrimsonText-Regular.ttf);
+}
+
+.container h3 {
+  text-transform: uppercase;
+  font-size: 400%;
+}
+.about-container{
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Sofia';font-size: 22px;
+
+}
+.about-container h2{
+  text-align: center;
+  font-family: 'Sofia';font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+
+}
+#about {
+  text-align: center;
+  font-size: 100%;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 100px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+#about a {
+  font-size: 80%;
+  color: white;
+}
+.row #social-media {
+  font-size: 200%;
+}
+.navigation-about{
+    background-color: light gray;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navigation-about a {
+    float: right;
+    font-family: 'Sofia';font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 100%;
+  padding-bottom: 10px;
+  font-family: 'Sofia';font-size: 22px;
+  }
+
+
+  .btn{
+    align-items: center;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+  }
+
+.user-details{
+  margin-left:auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 40%;
+  border: 1px solid black;
+  display: none;
+
+}
+#user-form {
+  width:40%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  height:40%;
+  background-color: white;
+
+}
+#h3 {
+  text-align: center;
+  font-size: 100%;
+}
+#submit {
+  margin: 5px;
+  align-items: center;
+}
+#nav {
+    background-color: light gray;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+ #nav a {
+    float: right;
+    font-style: Impact, Charcoal, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#register-form {
+  background-image: url(../images/background1.gif);
+  background-repeat: round;
+
+}
+.about-container{
+
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.about-container h1{
+align-items: center;
+}
+
+#register {
+  text-align: center;
+  font-size: 80%;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#register a {
+  font-size: 100%;
+  color: white;
+}
+
+.user-details{
+  margin-bottom: 50px;
+
+}
+.row #social-media {
+  font-size: 200%;
+}
+#found-h1 {
+  color: Blue;
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+#found-btn {
+  align-items: center;
+  background-color: black;
+  color:white;
+  border: 1px solid black;
+}
+
+#error {
+  display: none;
+  border: 1px solid red;
+  color: red;
+  font-size: 20px;
+  font-family: consolas;
+  padding: 5px;
+  margin-top: 10px;
+
+
+}
+#found-ontainer{
+  margin-left:auto;
+  margin-right: auto;
+  width: 40%;
+  border: 1px solid black;
+  font-family: 'Sofia';font-size: 22px;
+  background-color: white;
+  }
+  #Main {
+    background-image: url(../images/background1.gif);
+    background-repeat: round;
+  }
+  #found-footer {
+    text-align: center;
+    font-size: 80%;
+    background-color: black;
+    color: white;
+    margin-top: 155px;
+  }
+  .row #social-media {
+    font-size: 200%;
+  }
+
+  #found-footer a {
+    font-size: 100%;
+    color: white;
+  }
+  .found-nav {
+      background-color: light gray;
+      overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .found-nav a {
+      float: right;
+      font-family: 'Sofia';font-size: 22px;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+  }
+#paragraph a {
+  color: blue;
+  font-size: 100%;
+
+}

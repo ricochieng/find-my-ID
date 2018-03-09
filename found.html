@@ -6,26 +6,57 @@
   <title>Found IDs</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
 
 </head>
 
-<body class="Main">
-  <h1>Found IDs</h1>
+<body id="Main">
+    <div class="found-nav">
+      <a href="index.html">HOME</a>
+      <a href="register.html">REGISTER</a>
+      <a href="#">SEARCH</a>
+      <a href="about.html">ABOUT</a>
+  </div>
+  <div class="container" id="found-ontainer">
+    <h1 id="found-h1">Found IDs</h1>
 
-  <form id='form' action='' method='get'>
-    <label for="identify">Kindly provide your ID number</label><br>
-    <input id="input" name="id_number" type="text" placeholder="ID number">
-    <div>
-      <button>Submit</button>
+    <form id='form' action='' method='get'>
+      <label for="identify">Kindly provide your ID number</label><br>
+      <input id="input" name="id_number" type="text" placeholder="ID number">
+      <div>
+        <button id="found-btn">Submit</button>
+      </div>
+
+      <div id='error'> Please enter a valid 8 digit ID Number</div>
+
+    </form>
+
+    <p id="paragraph">In the event you do not find your ID here, <a href="register.html">click here</a> to register for a lost ID and you will be notified <strong><em>when and if it is found</em></strong>.</p>
+  </div>
+  <footer id="found-footer">
+    <div class="row">
+      <div class="col-md-4">
+        <i id="social-media" class="ion-social-instagram-outline"></i>
+        <br>
+        <i id="social-media" class="ion-social-facebook-outline"></i>
+        <br>
+        <i id="social-media" class="ion-social-twitter-outline"></i>
+
+      </div>
+      <div class="col-md-4">
+          <p><a href="index.html">Home</a>
+          <p><a href="register.html">Register</a></p>
+          <p><a href="found.html">Search for a lost ID</a></p>
+          <p><a href="about.html">About</a></p>
+      </div>
+      <div class="col-md-4">
+        <p>© 2018 findmyID.com</p>
+        <p>we find your lost IDs</p>
+      </div>
     </div>
-
-    <div id='error'> Please enter a valid 8 digit ID Number</div>
-
-  </form>
-
-  <p>In the event you do not find your ID here, <a href="index.html">click here</a> to register for a lost ID and you will be notified <strong><em>when and if it is found</em></strong>.</p>
-
-
+  </footer>
 
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/app.js"></script>

@@ -4,19 +4,23 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
 
       <title>Registration Page</title>
     </head>
-    <body>
+    <body id="register-form">
           <div class = "container">
-            <div class="navigation">
-              <a href="">PROJECTS</a>
-              <a href="">ABOUT</a>
-              <a href="">HOME</a>
+            <div id="nav">
+              <a href="index.html">HOME</a>
+              <a href="#">REGISTER</a>
+              <a href="found.html">SEARCH</a>
+              <a href="about.html">ABOUT</a>
+
           </div>
 <form class="Register">
   <div id="user-form">
-    <h3>REGISTER A LOST ID</h3>
+    <h3 id="h3">REGISTER A LOST ID</h3>
 
     <label for="new-first-name">First name</label>
     <input type="text" required class="form-control" id="new-first-name">
@@ -54,8 +58,32 @@
     <p><b>Address:</b> <span class="new-address"></span></p>
     <p><b>Post Code:</b> <span class="new-post-code"></span></p>
 </div>
+
 </form>
-              <
+          </div>
+
+<footer id="register">
+  <div class="row">
+    <div class="col-md-4">
+      <i id="social-media" class="ion-social-instagram-outline"></i>
+      <br>
+      <i id="social-media" class="ion-social-facebook-outline"></i>
+      <br>
+      <i id="social-media" class="ion-social-twitter-outline"></i>
+
+    </div>
+    <div class="col-md-4">
+        <p><a href="index.html">Home</a>
+        <p><a href="register.html">Register</a></p>
+        <p><a href="found.html">Search for a lost ID</a></p>
+        <p><a href="about.html">About</a></p>
+    </div>
+    <div class="col-md-4">
+      <p>© 2018 findmyID.com</p>
+      <p>we find your lost IDs</p>
+    </div>
+  </div>
+</footer>
       <script src="js/jquery-3.3.1.js"></script>
       <script src="js/app.js"></script>
     </body>
